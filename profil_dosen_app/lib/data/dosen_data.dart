@@ -1,0 +1,66 @@
+import '../models/dosen_model.dart';
+
+class DosenData {
+  static List<Dosen> dosenList = [
+    Dosen(
+      id: '1',
+      nama: 'Dila Nurlaila, M.Kom',
+      nip: '1571015201960020',
+      email: 'dilanurlaila@uinjambi.ac.id',
+      jabatan: 'Dosen Luar Biasa',
+      bidang: 'Software Engineering',
+      avatar: '🧕',
+      deskripsi: 'Pakar dalam Software Engineering dan Agile Development. Memimpin beberapa proyek pengembangan sistem informasi untuk instansi pemerintah dan swasta.',
+    ),
+    Dosen(
+      id: '2',
+      nama: 'Ahmad Nasukha, S.Hum., M.S.I',
+      nip: '1988072220171009',
+      email: 'nasukha@uinjambi.ac.id',
+      jabatan: 'Dosen Tetap PNS',
+      bidang: 'Artificial Intelligence',
+      avatar: '👨‍🏫',
+      deskripsi: 'Pengajar dengan pengalaman lebih dari 10 tahun di bidang ilmu komputer. Spesialisasi dalam Artificial Intelligence dan Machine Learning. Beliau aktif dalam penelitian nasional dan internasional.',
+    ),
+    Dosen(
+      id: '3',
+      nama: 'Hery Afriyadi, SE., S.Kom, M.Si',
+      nip: '19710415 200012 1 001',
+      email: 'heryafriyadi@uinjambi.ac.id',
+      jabatan: 'Dosen Tetap PNS',
+      bidang: 'UI/UX Design',
+      avatar: '👨‍💼',
+      deskripsi: 'Spesialis dalam User Experience Design dan Human-Computer Interaction. Membawa pendekatan desain yang berpusat pada pengguna dalam pengembangan aplikasi.',
+    ),
+    Dosen(
+      id: '4',
+      nama: 'Pol Metra, M.Kom',
+      nip: '19910615010122045',
+      email: 'polmetra@uinjambi.ac.id',
+      jabatan: 'Dosen Luar Biasa',
+      bidang: 'Multimedia',
+      avatar: '👨‍💻',
+      deskripsi: 'Ahli dalam desain grafis, animasi, dan produksi multimedia. Memiliki pengalaman dalam pembuatan konten digital kreatif untuk berbagai platform media. Berpengalaman dalam video editing dan motion graphics.',
+    ),
+    Dosen(
+      id: '5',
+      nama: 'M. Yusuf, S.Kom., M.S.I',
+      nip: '1988021420191007',
+      email: 'yusuf@uinjambi.ac.id',
+      jabatan: 'Dosen Luar Biasa',
+      bidang: 'Technopreneurship',
+      avatar: '👨‍🎓',
+      deskripsi: 'Pakar dalam bidang technopreneurship dan startup digital. Membimbing mahasiswa dalam mengembangkan bisnis berbasis teknologi. Memiliki pengalaman sebagai founder beberapa startup sukses di bidang e-commerce dan fintech.',
+    ),
+    Dosen(
+      id: '6',
+      nama: 'Wahyu Anggoro, M.Kom',
+      nip: '1571082309960021',
+      email: 'wahyuanggoro@uinjambi.ac.id',
+      jabatan: 'Dosen Luar Biasa',
+      bidang: 'Data Science',
+      avatar: '👳‍♂️',
+      deskripsi: 'Ahli dalam bidang Data Science dan Big Data Analytics. Memiliki publikasi internasional di jurnal terindeks Scopus. Aktif dalam pengabdian masyarakat di bidang teknologi informasi.',
+    ),
+  ];
+}
