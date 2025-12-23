@@ -1,0 +1,5 @@
+package com.example.flutter_application_list_view_model
+
+import io.flutter.embedding.android.FlutterActivity
+
+class MainActivity : FlutterActivity()

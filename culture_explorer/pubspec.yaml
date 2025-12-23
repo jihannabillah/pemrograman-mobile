@@ -1,0 +1,70 @@
+name: culture_explorer
+description: "Aplikasi eksplorasi warisan budaya dunia"
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.9.2
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # UI & Design
+  google_fonts: ^6.1.0
+  cached_network_image: ^3.3.0
+  shimmer: ^3.0.0
+  flutter_rating_bar: ^4.0.1
+  cupertino_icons: ^1.0.8
+
+  # State Management
+  provider: ^6.1.1
+  
+  # API & Networking
+  http: ^1.1.0
+  
+  # Local Storage
+  sqflite: ^2.3.0
+  path: ^1.8.3
+  shared_preferences: ^2.2.2
+  
+  # Utilities
+  intl: ^0.20.0
+  url_launcher: ^6.2.1
+  connectivity_plus: ^5.0.2
+  
+  # Form & Validation
+  flutter_form_builder: ^10.0.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+  
+  # --- TAMBAHKAN DUA BARIS INI UNTUK TOOLS ---
+  flutter_launcher_icons: ^0.13.1
+  flutter_native_splash: ^2.4.0
+
+# --- KONFIGURASI ICON APLIKASI ---
+flutter_launcher_icons:
+  android: "launcher_icon"
+  ios: true
+  image_path: "assets/images/logo_apk.png"
+  adaptive_icon_background: "#FFFFFF"
+  adaptive_icon_foreground: "assets/images/logo_apk.png"
+
+# --- KONFIGURASI SPLASH SCREEN ---
+flutter_native_splash:
+  color: "#FFFFFF"
+  image: "assets/images/logo_apk.png"
+  android_12:
+    image: "assets/images/logo_apk.png"
+    color: "#FFFFFF"
+  fullscreen: true
+
+flutter:
+  uses-material-design: true
+
+  # --- WAJIB DAFTARKAN ASSETS DI SINI ---
+  assets:
+    - assets/images/logo_apk.png
